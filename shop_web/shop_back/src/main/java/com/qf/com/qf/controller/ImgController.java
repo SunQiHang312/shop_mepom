@@ -38,7 +38,8 @@ public class ImgController {
 
             //获取上传到FastDFS中的图片访问路径
             String storeUrl = storePath.getFullPath();
-            System.out.println("路径:"+storeUrl);
+            //System.out.println("路径:"+storeUrl);
+            return "{\"uploadPath\":\"" + storeUrl +"\"}";
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -52,7 +53,7 @@ public class ImgController {
         }catch (IOException e){
             e.printStackTrace();
         }*/
-        return "succ";
+        return null;
         /*System.out.println("有图片开始上传！！"+file.getOriginalFilename());
         return null;*/
     }

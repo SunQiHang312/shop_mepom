@@ -48,7 +48,8 @@
                     mimeTypes: 'image/*'
                 }
             });
-            
+
+            //生成缩略图的点击事件
             uploader.on("fileQueued", function (file) {
                 //生成缩略图
                 uploader.makeThumb(file, function(error, ret ){
@@ -58,7 +59,17 @@
                         var img = "<img src=\"" + ret +"\" style=\"height: 100px; width: 100px; margin-bottom: 5px;\"/>";
                         $("#imgs_div").append(img);
                     }
-                },100,100)
+                },100,100);
+            });
+
+            //绑定上传成功事件
+            uploader.on("uploadSuccess", function(file, response) {
+                var val = $("#image_paths").val();
+                if(val){
+                    val += "|";
+                }
+                val += response.uploadPath;
+                $("#image_paths").val(val);
             });
         });
 
@@ -93,6 +104,8 @@
                                     <div id="imgs_div" style="border: solid 1px black; width: 500px; height: 150px; margin-bottom: 10px; padding: 20px;"></div>
                                     <button type="button" class="mybutton" style="margin-bottom: 10px;" onclick="upload_imgs();">上传图片</button>
                                     <div id="filePicker">选择图片</div>
+                                    <input id="image_paths" type="hidden" name="gimage" value="" />
+
                                 </div>
                         </p>
                         <p>
