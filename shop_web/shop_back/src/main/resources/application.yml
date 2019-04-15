@@ -3,13 +3,13 @@ spring:
     cache: false
 
 server:
-  ip: 192.168.227.130
+  ip: 192.168.180.128
 
 dubbo:
   application:
     name: back_web
   registry:
-    address: zookeeper://192.168.227.130:2181
+    address: zookeeper://192.168.180.128:2181
   consumer:
     check: false
 fdfs:
@@ -19,4 +19,4 @@ fdfs:
     width: 100
     height: 100
   tracker-list:
-    - 192.168.227.130:22122
+    - 192.168.180.128:22122
