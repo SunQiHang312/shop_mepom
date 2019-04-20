@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shop_back" />
+        <module name="shop_cart" />
         <module name="shop_commons" />
+        <module name="shop_email" />
         <module name="shop_entity" />
         <module name="shop_front" />
         <module name="shop_item" />
@@ -16,12 +18,16 @@
         <module name="shop_service_api" />
         <module name="shop_service_goods" />
         <module name="shop_service_search" />
+        <module name="shop_service_user" />
+        <module name="shop_sso" />
         <module name="shop_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="shop_back" target="1.8" />
+      <module name="shop_cart" target="1.8" />
       <module name="shop_commons" target="1.8" />
+      <module name="shop_email" target="1.8" />
       <module name="shop_entity" target="1.8" />
       <module name="shop_front" target="1.8" />
       <module name="shop_item" target="1.8" />
@@ -31,6 +37,8 @@
       <module name="shop_service_api" target="1.8" />
       <module name="shop_service_goods" target="1.8" />
       <module name="shop_service_search" target="1.8" />
+      <module name="shop_service_user" target="1.8" />
+      <module name="shop_sso" target="1.8" />
       <module name="shop_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>

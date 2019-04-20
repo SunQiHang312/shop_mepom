@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/shop_web/shop_seach/pom.xml" />
         <option value="$PROJECT_DIR$/shop_service/shop_service_search/pom.xml" />
         <option value="$PROJECT_DIR$/shop_web/shop_item/pom.xml" />
+        <option value="$PROJECT_DIR$/shop_web/shop_sso/pom.xml" />
+        <option value="$PROJECT_DIR$/shop_service/shop_service_user/pom.xml" />
+        <option value="$PROJECT_DIR$/shop_web/shop_email/pom.xml" />
+        <option value="$PROJECT_DIR$/shop_web/shop_cart/pom.xml" />
       </list>
     </option>
   </component>

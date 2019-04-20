@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/shop_web/shop_back/shop_back.iml" filepath="$PROJECT_DIR$/shop_web/shop_back/shop_back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_web/shop_cart/shop_cart.iml" filepath="$PROJECT_DIR$/shop_web/shop_cart/shop_cart.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop_commons/shop_commons.iml" filepath="$PROJECT_DIR$/shop_commons/shop_commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_web/shop_email/shop_email.iml" filepath="$PROJECT_DIR$/shop_web/shop_email/shop_email.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop_entity/shop_entity.iml" filepath="$PROJECT_DIR$/shop_entity/shop_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop_web/shop_front/shop_front.iml" filepath="$PROJECT_DIR$/shop_web/shop_front/shop_front.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop_web/shop_item/shop_item.iml" filepath="$PROJECT_DIR$/shop_web/shop_item/shop_item.iml" />
@@ -13,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/shop_service_api/shop_service_api.iml" filepath="$PROJECT_DIR$/shop_service_api/shop_service_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop_service/shop_service_goods/shop_service_goods.iml" filepath="$PROJECT_DIR$/shop_service/shop_service_goods/shop_service_goods.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop_service/shop_service_search/shop_service_search.iml" filepath="$PROJECT_DIR$/shop_service/shop_service_search/shop_service_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_service/shop_service_user/shop_service_user.iml" filepath="$PROJECT_DIR$/shop_service/shop_service_user/shop_service_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_web/shop_sso/shop_sso.iml" filepath="$PROJECT_DIR$/shop_web/shop_sso/shop_sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop_web/shop_web.iml" filepath="$PROJECT_DIR$/shop_web/shop_web.iml" />
     </modules>
   </component>
